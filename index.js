@@ -24,7 +24,8 @@ try {
     }
 }
 
-parsers.push(require("./lib/parser/javascript"));
+parsers.push(require("./lib/parser/js"));
+//parsers.push(require("./lib/parser/javascript"));
 
 function RedisClient(stream, options) {
     this.stream = stream;
